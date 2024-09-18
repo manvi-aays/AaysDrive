@@ -20,7 +20,7 @@ export default function LandingPage() {
         <div className="mx-auto max-w-2xl py-8">
           <div className="text-center">
             <Image
-              src="/logo.png"
+              src="/mainlogo.png"
               width="200"
               height="200"
               alt="file drive logo"
@@ -41,12 +41,12 @@ export default function LandingPage() {
               >
                 Get started
               </Link>
-              <a
+              {/* <a
                 href="#"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

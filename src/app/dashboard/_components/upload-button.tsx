@@ -92,6 +92,7 @@ export function UploadButton() {
         description: "Now everyone can view your file",
       });
     } catch (err) {
+      console.error("Error in createFile:", err); // Log error details
       toast({
         variant: "destructive",
         title: "Something went wrong",
