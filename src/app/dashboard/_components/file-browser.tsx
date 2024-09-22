@@ -9,7 +9,7 @@ import { GridIcon, Loader2, RowsIcon } from "lucide-react";
 import { SearchBar } from "./search-bar";
 import { useState } from "react";
 import { DataTable } from "./file-table";
-import { columns } from "./columns";
+import { columnsdef } from "./columns";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Select,
@@ -140,7 +140,7 @@ export function FileBrowser({
           </div>
         </TabsContent>
         <TabsContent value="table">
-          <DataTable columns={columns} data={modifiedFiles} />
+          <DataTable columns={columnsdef} data={modifiedFiles} />
         </TabsContent>
       </Tabs>
 
